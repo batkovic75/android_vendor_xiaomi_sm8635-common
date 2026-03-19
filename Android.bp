@@ -6420,6 +6420,12 @@ cc_prebuilt_library_shared {
             ],
         },
     },
+    header_libs: [
+        "libar-gsl-headers",
+    ],
+    export_header_lib_headers: [
+        "libar-gsl-headers",
+    ],
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
